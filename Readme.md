@@ -12,7 +12,7 @@ In this project, we are going to put our machine learning knowledge together and
 
 ## Introduction
 
-In this tutorial, we are using a **Corporate Message** dataset from [**data.world**](https://data.world/crowdflower/corporate-messaging) to study a classification problem. Given a post on social media, how can we identify the post contains corporate information, calling for a vote or just reply to certain user? We are going to cover how text can be used in training a machine learning model. For a detailed explaination of the workthrough, please refer to the notebook.
+In this tutorial, we are using a **Corporate Message** dataset from [**data.world**](https://data.world/crowdflower/corporate-messaging) to study a classification problem. Given a post on social media, how can we identify the post contains corporate information, calling for a vote or just reply to certain user? We are going to cover how text can be used in training a machine learning model. For a detailed explaination of the workthrough, please refer to the [notebook](https://github.com/AustinCheang/Introduction-to-Machine-Learning-Pipeline/blob/main/Intro_Cop_Msg.ipynb).
 
 
 
@@ -70,7 +70,7 @@ After loading the dataset, we might want to perform other transfomration steps t
 
 
 
-Next, there are basic NLP concepts such as **Bags of words** and **TF-IDF** to convert the text data to work in various model (Please refer to the notebook for a detailed explanation). Sklearn library also provides the above transfomer object to save user time. 
+Next, there are basic NLP concepts such as **Bags of words** and **TF-IDF** to convert the text data to work in various model (Please refer to the [notebook](https://github.com/AustinCheang/Introduction-to-Machine-Learning-Pipeline/blob/main/Intro_Cop_Msg.ipynb) for a detailed explanation). Sklearn library also provides the above transfomer object to save user time. 
 
 ```Python
 vect = CountVectorizer(tokenizer=preprocessing)
@@ -152,7 +152,7 @@ Congratulations, you used learnt how to structure the a model pipeline in a orga
 
 along side. By using Random Forest with different text transfomer objects, we obtained a 94.80% after trying out different parameters in Grid Search. The result is promising and now we have a model to automatically identify posts category for us.
 
-![output](/Users/austincheang/Desktop/Corporate_Message/output.png)
+![output](./output.png)
 
 
 
