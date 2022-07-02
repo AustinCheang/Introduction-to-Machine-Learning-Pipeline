@@ -18,7 +18,7 @@ In this tutorial, we are using a **Corporate Message** dataset from [**data.worl
 
 First, let's have a look of what data is stored inside the Coroporate Message dataset. 
 
-![Screenshot 2022-07-02 at 18.45.44](/Users/austincheang/Library/Application Support/typora-user-images/Screenshot 2022-07-02 at 18.45.44.png)
+![Screenshot 2022-07-02 at 18.45.44](dataset_overview.png)
 
 This dataset contains 3118 rows and 11 attributes. The dataset contain a lot of attributes and not sure which attributes are useful for our model. Since we only focus on predicting the category of a post, we would only focus on `text` and `cateogry` columns when building our model.`text` stores each post posted by the company in `screenname`. `category` provides the label for the category label for the post. 
 
